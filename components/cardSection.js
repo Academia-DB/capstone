@@ -23,7 +23,7 @@ function CardSection(props) {
               </div>
               <br />
               <div className="order-button-wrapper">
-                <Link href="javascript:setTimeout(() => {window.location.href = '/'}, 1000);">
+                <Link href="/">
                   <button onClick={props.submitOrder}>Confirm order</button>
                 </Link>
               </div>
