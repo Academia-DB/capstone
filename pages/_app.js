@@ -11,7 +11,7 @@ function MyApp(props){
   const [state,setState] = useState({cart:cart});
   const [newUser, setNewUser] = useState(user);
   const { Component, pageProps } = props;
-
+  
   setUser = (user) => {
     console.log(newUser);
     setNewUser(user);
